@@ -1,456 +1,783 @@
-<!doctype html>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-  <head>
-    <title>Navin Chandradat Portfolio</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript
-      ><link rel="stylesheet" href="assets/css/noscript.css"
-    /></noscript>
-  </head>
-  <body class="is-preload">
-    <!-- Wrapper -->
-    <div id="wrapper" class="fade-in">
-      <!-- Intro -->
-      <div id="intro">
-        <h1>Navin Chandradat's <br />Data Portfolio<br /></h1>
-        <p>
-          Data Analyst skilled in R, Python, Tableau, Power BI and SQL
-          <a
-            href="https://www.linkedin.com/in/navin-chandradat/"
-            target="_blank"
-            >@Navin Chandradat</a
-          >
-        </p>
-        <ul class="actions">
-          <li>
-            <a
-              href="#header"
-              class="button icon solid solo fa-arrow-down scrolly"
-              >Continue</a
-            >
-          </li>
-        </ul>
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navin Chandradat · Data Analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
-      <!-- Header -->
-      <header id="header">
-        <a href="index.html" class="logo">Navin Chandradat</a>
-      </header>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-      <!-- Nav -->
-      <nav id="nav">
-        <ul class="links">
-          <li class="active"><a href="index.html">Projects</a></li>
-        </ul>
-        <ul class="icons">
-          <li>
-            <a
-              href="https://www.linkedin.com/in/navin-chandradat/"
-              target="_blank"
-              class="icon brands alt fa-linkedin"
-              ><span class="label">LinkedIn</span></a
-            >
-          </li>
-          <li>
-            <a
-              href="https://github.com/navinchandradat"
-              target="_blank"
-              class="icon brands alt fa-github"
-              ><span class="label">GitHub</span></a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.kaggle.com/navinchandradat"
-              target="_blank"
-              class="icon brands alt fa-kaggle"
-              ><span class="label">Kaggle</span></a
-            >
-          </li>
-        </ul>
-      </nav>
+    :root {
+      --bg:        #F5F2ED;
+      --surface:   #EDEAE4;
+      --ink:       #1A1814;
+      --ink-muted: #6B6660;
+      --accent:    #2B5F3E;
+      --accent-lt: #D4E8DC;
+      --rule:      #C8C3BB;
+      --radius:    4px;
+      --font-display: 'Syne', sans-serif;
+      --font-body:    'Libre Baskerville', Georgia, serif;
+    }
 
-      <!-- Main -->
-      <div id="main">
-        <!-- Featured Post -->
-        <article class="post featured">
-          <header class="major">
-            <h2>
-              <a
-                href="https://github.com/navinchandradat/Turnover-Impact-and-Win-Probability-Analysis-Rams-vs-Seahawks-Week-11"
-                target="_blank"
-                >Rams vs Seahawks <br />Week 11 2025 Analysis<br />
-              </a>
-            </h2>
-            <p>
-              Looked at how despite turning the ball over four times, the
-              Seahawks were a field goal away from winning this game.
-            </p>
-          </header>
-          <a
-            href="projects/Rams-Seahawks-Analysis-Week-11.html"
-            target="_blank"
-            class="image main"
-            ><img src="images/football-field.jpg" alt=""
-          /></a>
-          <ul class="actions special">
-            <li>
-              <a
-                href="projects/Rams-Seahawks-Analysis-Week-11.html"
-                target="_blank"
-                class="button large"
-                >View Project</a
-              >
-            </li>
-          </ul>
-        </article>
+    html { scroll-behavior: smooth; }
 
-        <!-- Posts -->
-        <section class="posts">
-          <article>
-            <header>
-              <h2>
-                <a
-                  href="https://github.com/navinchandradat/PortfolioProjects/blob/main/COVID%20Portfolio%20Project%20v2.sql"
-                  target="_blank"
-                >
-                  COVID 19 Data Exploration in SQL<br />
-                </a>
-              </h2>
-            </header>
-            <a
-              href="https://github.com/navinchandradat/PortfolioProjects/blob/main/COVID%20Portfolio%20Project%20v2.sql"
-              target="_blank"
-              class="image fit"
-              ><img src="images/covid.jpg" alt=""
-            /></a>
-            <p>Data Exploration of Covid 19 Dataset in SQL Server.</p>
-            <ul class="actions special">
-              <li>
-                <a
-                  href="https://github.com/navinchandradat/PortfolioProjects/blob/main/COVID%20Portfolio%20Project%20v2.sql"
-                  target="_blank"
-                  class="button"
-                  >View Project</a
-                >
-              </li>
-            </ul>
-          </article>
-          <!--In future create article for Tableau project-->
-          <article>
-            <header>
-              <h2>
-                <a
-                  href="https://github.com/navinchandradat/PortfolioProjects/blob/main/NFL%20Project%20Report.Rmd"
-                  target="_blank"
-                  >Investigation of the Analytics of the NFL<br />
-                </a>
-              </h2>
-            </header>
-            <a
-              href="https://github.com/navinchandradat/PortfolioProjects/blob/main/NFL%20Project%20Report.Rmd"
-              target="_blank"
-              class="image fit"
-              ><img src="images/football.jpg" alt=""
-            /></a>
-            <p>
-              Expoloratory analysis of statistics attributed to winning games in
-              the NFL.
-            </p>
-            <ul class="actions special">
-              <li>
-                <a
-                  href="https://github.com/navinchandradat/PortfolioProjects/blob/main/NFL%20Project%20Report.Rmd"
-                  target="_blank"
-                  class="button"
-                  >View Project</a
-                >
-              </li>
-            </ul>
-          </article>
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font-body);
+      font-size: 16px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
 
-          <article>
-            <header>
-              <h2>
-                <a
-                  href="https://public.tableau.com/app/profile/navin.chandradat"
-                  target="_blank"
-                  >Tableau Projects<br />
-                </a>
-              </h2>
-            </header>
-            <a
-              href="https://public.tableau.com/app/profile/navin.chandradat"
-              target="_blank"
-              class="image fit"
-              ><img src="images/dashboard.jpg" alt=""
-            /></a>
-            <p>This holds all of my Tableau visualizations.</p>
-            <ul class="actions special">
-              <li>
-                <a
-                  href="https://public.tableau.com/app/profile/navin.chandradat"
-                  target="_blank"
-                  class="button"
-                  >View Projects</a
-                >
-              </li>
-            </ul>
-          </article>
+    .container {
+      width: min(1100px, 92vw);
+      margin-inline: auto;
+    }
 
-          <article>
-            <header>
-              <h2>
-                <a
-                  href="https://github.com/navinchandradat/PortfolioProjects/blob/main/Movie%20Correlation%20Project.ipynb"
-                  target="_blank"
-                >
-                  Movie Revenue Correlation in Python<br />
-                </a>
-              </h2>
-            </header>
-            <a
-              href="https://github.com/navinchandradat/PortfolioProjects/blob/main/Movie%20Correlation%20Project.ipynb"
-              target="_blank"
-              class="image fit"
-              ><img src="images/movies.jpg" alt=""
-            /></a>
-            <p>
-              Exploring what variables attribute to high revenue for movies.
-            </p>
-            <ul class="actions special">
-              <li>
-                <a
-                  href="https://github.com/navinchandradat/PortfolioProjects/blob/main/Movie%20Correlation%20Project.ipynb"
-                  target="_blank"
-                  class="button"
-                  >View Project</a
-                >
-              </li>
-            </ul>
-          </article>
+    /* ── NAV ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg);
+      border-bottom: 1px solid var(--rule);
+      padding: 18px 0;
+    }
+    nav .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-logo {
+      font-family: var(--font-display);
+      font-weight: 800;
+      font-size: 1.05rem;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+      text-decoration: none;
+    }
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      align-items: center;
+    }
+    .nav-links a {
+      font-family: var(--font-display);
+      font-weight: 500;
+      font-size: 0.82rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--accent); }
 
-          <article>
-            <header>
-              <h2>
-                <a
-                  href="https://github.com/navinchandradat/PortfolioProjects/blob/main/Data%20Professional%20Survey.pdf"
-                  target="_blank"
-                  >Data Survey Breakdown<br />
-                </a>
-              </h2>
-            </header>
-            <a
-              href="https://github.com/navinchandradat/PortfolioProjects/blob/main/Data%20Professional%20Survey.pdf"
-              target="_blank"
-              class="image fit"
-              ><img src="images/datasurvey.jpg" alt=""
-            /></a>
-            <p>
-              Analyzing survey data to gain insights into the various facets of
-              the data profession.
-            </p>
-            <ul class="actions special">
-              <li>
-                <a
-                  href="https://github.com/navinchandradat/PortfolioProjects/blob/main/Data%20Professional%20Survey.pdf"
-                  target="_blank"
-                  class="button"
-                  >View Project</a
-                >
-              </li>
-            </ul>
-          </article>
+    /* ── HERO ── */
+    .hero {
+      padding: 96px 0 76px;
+      border-bottom: 1px solid var(--rule);
+      opacity: 0;
+      transform: translateY(24px);
+      animation: fadeUp 0.7s ease forwards;
+    }
+    .hero-eyebrow {
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: 0.76rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.4rem;
+    }
+    .hero h1 {
+      font-family: var(--font-display);
+      font-weight: 800;
+      font-size: clamp(2.6rem, 6vw, 4.8rem);
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      color: var(--ink);
+      max-width: 18ch;
+      margin-bottom: 1.4rem;
+    }
+    .hero h1 em {
+      font-style: italic;
+      color: var(--accent);
+    }
+    .hero-desc {
+      font-size: 1rem;
+      color: var(--ink-muted);
+      max-width: 54ch;
+      line-height: 1.8;
+      margin-bottom: 2.2rem;
+    }
+    .hero-meta {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .hero-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+    }
+    .chip {
+      background: var(--surface);
+      border: 1px solid var(--rule);
+      border-radius: 99px;
+      padding: 4px 13px;
+      font-family: var(--font-display);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+    }
+    .hero-social {
+      display: flex;
+      gap: 1rem;
+      list-style: none;
+    }
+    .hero-social a {
+      font-family: var(--font-display);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1.5px solid var(--accent-lt);
+      padding-bottom: 1px;
+      transition: border-color 0.2s;
+    }
+    .hero-social a:hover { border-color: var(--accent); }
 
-          <article>
-            <header>
-              <h2>
-                <a
-                  href="https://github.com/navinchandradat/PortfolioProjects/blob/main/Excel%20Project%20Bike%20Sales.xlsx"
-                  target="_blank"
-                  >Analyzing Data Using Excel<br />
-                </a>
-              </h2>
-            </header>
-            <a
-              href="https://github.com/navinchandradat/PortfolioProjects/blob/main/Excel%20Project%20Bike%20Sales.xlsx"
-              target="_blank"
-              class="image fit"
-              ><img src="images/bicycles.jpg" alt=""
-            /></a>
-            <p>
-              Analyzing customer data to gain insights about the demographics
-              within bike sales.
-            </p>
-            <ul class="actions special">
-              <li>
-                <a
-                  href="https://github.com/navinchandradat/PortfolioProjects/blob/main/Excel%20Project%20Bike%20Sales.xlsx"
-                  target="_blank"
-                  class="button"
-                  >View Project</a
-                >
-              </li>
-            </ul>
-          </article>
+    /* ── SECTION HEADER ── */
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      gap: 1.2rem;
+      padding: 56px 0 32px;
+    }
+    .section-header h2 {
+      font-family: var(--font-display);
+      font-weight: 800;
+      font-size: 0.76rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+      white-space: nowrap;
+    }
+    .section-header::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
 
-          <article>
-            <header>
-              <h2>
-                <a
-                  href="https://github.com/navinchandradat/PortfolioProjects/blob/main/Data%20Cleaning%20Portfolio%20Project.sql"
-                  target="_blank"
-                  >Data Cleaning in SQL<br />
-                </a>
-              </h2>
-            </header>
-            <a
-              href="https://github.com/navinchandradat/PortfolioProjects/blob/main/Data%20Cleaning%20Portfolio%20Project.sql"
-              target="_blank"
-              class="image fit"
-              ><img src="images/housing.jpg" alt=""
-            /></a>
-            <p>In this project we cleaned housing data in SQL Server.</p>
-            <ul class="actions special">
-              <li>
-                <a
-                  href="https://github.com/navinchandradat/PortfolioProjects/blob/main/Data%20Cleaning%20Portfolio%20Project.sql"
-                  target="_blank"
-                  class="button"
-                  >View Project</a
-                >
-              </li>
-            </ul>
-          </article>
+    /* ── FILTER TABS ── */
+    .filter-row {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+    .filter-btn {
+      font-family: var(--font-display);
+      font-size: 0.74rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+      background: var(--surface);
+      border: 1px solid var(--rule);
+      border-radius: 99px;
+      padding: 6px 16px;
+      cursor: pointer;
+      transition: all 0.18s;
+    }
+    .filter-btn:hover { color: var(--ink); border-color: var(--ink-muted); }
+    .filter-btn.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
 
-          <!-- <article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article> -->
-        </section>
+    /* ── PROJECT GRID ── */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+      gap: 1.5px;
+      background: var(--rule);
+      border: 1.5px solid var(--rule);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-bottom: 80px;
+    }
 
-        <!-- Footer -->
-        <!-- <footer>
-								<div class="pagination"> -->
-        <!--<a href="#" class="previous">Prev</a>-->
-        <!-- <a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-								</div>
-							</footer> -->
-      </div>
+    .project-card {
+      background: var(--bg);
+      padding: 32px 28px 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-decoration: none;
+      color: inherit;
+      transition: background 0.2s;
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    .project-card.visible {
+      animation: fadeUp 0.5s ease forwards;
+    }
+    .project-card[href]:hover { background: var(--surface); }
+    .project-card[href]:hover .card-arrow { transform: translate(4px, -4px); }
+    .project-card.hidden { display: none; }
 
-      <!-- Footer -->
-      <footer id="footer">
-        <section class="split contact">
-          <section class="alt">
-            <h3>Location</h3>
-            <p>Toronto, ON</p>
-          </section>
-          <section>
-            <h3>Phone</h3>
-            <p><a href="#">(123) 456-7890</a></p>
-          </section>
-          <!-- Add email later if need be -->
-          <!-- <section>
-								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
-							</section> -->
-          <section>
-            <h3>Social</h3>
-            <ul class="icons alt">
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/navin-chandradat/"
-                  target="_blank"
-                  class="icon brands alt fa-linkedin"
-                  ><span class="label">LinkedIn</span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://github.com/navinchandradat"
-                  target="_blank"
-                  class="icon brands alt fa-github"
-                  ><span class="label">GitHub</span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.kaggle.com/navinchandradat"
-                  target="_blank"
-                  class="icon brands alt fa-kaggle"
-                  ><span class="label">Kaggle</span></a
-                >
-              </li>
-            </ul>
-          </section>
-        </section>
-      </footer>
+    .card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card-domain {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 0.66rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      border-radius: 99px;
+      padding: 3px 10px;
+    }
+    .card-domain.nfl, .card-domain.mlb, .card-domain.r
+      { color: #2B5F3E; background: #D4E8DC; }
+    .card-domain.sql   { color: #1a5276; background: #d6eaf8; }
+    .card-domain.py    { color: #6c3483; background: #e8daef; }
+    .card-domain.bi    { color: #7d4600; background: #fdebd0; }
+    .card-domain.excel { color: #1e8449; background: #d5f5e3; }
 
-      <!-- Copyright -->
-      <div id="copyright">
-        <ul>
-          <li>&copy; Untitled</li>
-          <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+    .card-status {
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: 0.66rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+    }
+    .card-status.live::before   { content: '●'; color: var(--accent); margin-right: 5px; font-size: 0.58rem; }
+    .card-status.wip::before    { content: '◐'; color: #B8960C; margin-right: 5px; }
+
+    .card-title {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 1.12rem;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+      margin-top: 4px;
+    }
+    .card-desc {
+      font-size: 0.86rem;
+      line-height: 1.68;
+      color: var(--ink-muted);
+      flex: 1;
+    }
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-top: 4px;
+    }
+    .tag {
+      font-family: var(--font-display);
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+      background: var(--surface);
+      border: 1px solid var(--rule);
+      border-radius: 3px;
+      padding: 2px 7px;
+    }
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid var(--rule);
+      margin-top: 6px;
+      padding-top: 12px;
+    }
+    .card-tools {
+      font-family: var(--font-display);
+      font-size: 0.7rem;
+      color: var(--ink-muted);
+      letter-spacing: 0.03em;
+    }
+    .card-arrow {
+      font-size: 0.95rem;
+      color: var(--accent);
+      transition: transform 0.2s ease;
+    }
+    .card-arrow.dim { opacity: 0.25; }
+
+    /* ── ABOUT ── */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 4rem;
+      padding-bottom: 72px;
+      border-bottom: 1px solid var(--rule);
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    .about-grid.visible { animation: fadeUp 0.6s ease forwards; }
+    .about-label {
+      font-family: var(--font-display);
+      font-weight: 800;
+      font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      padding-top: 4px;
+    }
+    .about-body p {
+      font-size: 0.95rem;
+      line-height: 1.82;
+      color: var(--ink-muted);
+      margin-bottom: 0.9rem;
+    }
+    .about-body p:last-child { margin-bottom: 0; }
+    .about-links {
+      display: flex;
+      gap: 1.2rem;
+      flex-wrap: wrap;
+      margin-top: 1.6rem;
+    }
+    .about-links a {
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1.5px solid var(--accent-lt);
+      padding-bottom: 2px;
+      transition: border-color 0.2s;
+    }
+    .about-links a:hover { border-color: var(--accent); }
+
+    /* ── FOOTER ── */
+    footer {
+      padding: 28px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    footer p {
+      font-family: var(--font-display);
+      font-size: 0.76rem;
+      color: var(--ink-muted);
+    }
+    .footer-links {
+      display: flex;
+      gap: 1.2rem;
+    }
+    .footer-links a {
+      font-family: var(--font-display);
+      font-size: 0.76rem;
+      font-weight: 600;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .footer-links a:hover { color: var(--accent); }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 640px) {
+      .about-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+      .nav-links { gap: 1.2rem; }
+      .nav-links li:nth-child(n+3) { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="container">
+      <a href="#" class="nav-logo">Navin Chandradat</a>
+      <ul class="nav-links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="https://www.linkedin.com/in/navin-chandradat/" target="_blank">LinkedIn ↗</a></li>
+        <li><a href="https://github.com/navinchandradat" target="_blank">GitHub ↗</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <p class="hero-eyebrow">Data Analytics · Toronto, ON</p>
+      <h1>Turning raw data into <em>decisions</em></h1>
+      <p class="hero-desc">
+        Data analyst working across R, Python, SQL, Tableau, and Excel — with a focus on sports analytics projects built around questions coaches and decision-makers actually want answered.
+      </p>
+      <div class="hero-meta">
+        <div class="hero-chips">
+          <span class="chip">R</span>
+          <span class="chip">Python</span>
+          <span class="chip">SQL</span>
+          <span class="chip">Tableau</span>
+          <span class="chip">Power BI</span>
+          <span class="chip">Excel</span>
+          <span class="chip">nflfastR</span>
+          <span class="chip">Statcast</span>
+        </div>
+        <ul class="hero-social">
+          <li><a href="https://www.linkedin.com/in/navin-chandradat/" target="_blank">LinkedIn ↗</a></li>
+          <li><a href="https://github.com/navinchandradat" target="_blank">GitHub ↗</a></li>
+          <li><a href="https://www.kaggle.com/navinchandradat" target="_blank">Kaggle ↗</a></li>
         </ul>
       </div>
     </div>
+  </section>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+  <!-- PROJECTS -->
+  <section id="work">
+    <div class="container">
+      <div class="section-header"><h2>Projects</h2></div>
+
+      <div class="filter-row">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="sports">Sports Analytics</button>
+        <button class="filter-btn" data-filter="sql">SQL</button>
+        <button class="filter-btn" data-filter="python">Python</button>
+        <button class="filter-btn" data-filter="bi">BI / Tableau</button>
+        <button class="filter-btn" data-filter="excel">Excel</button>
+      </div>
+
+      <div class="projects-grid" id="projectGrid">
+
+        <!-- 1. Rams vs Seahawks -->
+        <a class="project-card" data-category="sports"
+           href="https://navinchandradat.github.io/projects/Rams-Seahawks-Analysis-Week-11.html"
+           target="_blank">
+          <div class="card-top">
+            <span class="card-domain nfl">NFL · R</span>
+            <span class="card-status live">Live</span>
+          </div>
+          <div class="card-title">Rams vs. Seahawks — Turnover Impact Analysis</div>
+          <p class="card-desc">
+            Despite turning the ball over four times, Seattle was a field goal away from winning. Quantified how turnovers shifted expected points and win probability across the game.
+          </p>
+          <div class="card-tags">
+            <span class="tag">EP / EPA</span>
+            <span class="tag">Win Probability</span>
+            <span class="tag">Defensive Personnel</span>
+            <span class="tag">FTN Charting</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-tools">nflfastR · nflreadr · ggplot2</span>
+            <span class="card-arrow">↗</span>
+          </div>
+        </a>
+
+        <!-- 2. Free Agency (WIP) -->
+        <div class="project-card" data-category="sports">
+          <div class="card-top">
+            <span class="card-domain nfl">NFL · R</span>
+            <span class="card-status wip">In Progress</span>
+          </div>
+          <div class="card-title">2026 Free Agency Production Gap</div>
+          <p class="card-desc">
+            Quantifying the production departing free agents take with them — by position, by team, by metric. EPA/target, pressure rate, coverage snaps. Who lost the most?
+          </p>
+          <div class="card-tags">
+            <span class="tag">EPA/Target</span>
+            <span class="tag">Pressure Rate</span>
+            <span class="tag">Coverage</span>
+            <span class="tag">EDGE</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-tools">nflfastR · nflreadr · ggplot2</span>
+            <span class="card-arrow dim">↗</span>
+          </div>
+        </div>
+
+        <!-- 3. MLB Pitching (WIP) -->
+        <div class="project-card" data-category="sports">
+          <div class="card-top">
+            <span class="card-domain mlb">MLB · R</span>
+            <span class="card-status wip">In Progress</span>
+          </div>
+          <div class="card-title">Pitching Change Decision Analysis</div>
+          <p class="card-desc">
+            When should a manager pull the starter? A win-probability and Statcast deep dive into pitching change timing — and what the data says about getting it wrong.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Statcast</span>
+            <span class="tag">Win Probability</span>
+            <span class="tag">Pitch-Level Data</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-tools">baseballr · tidyverse · ggplot2</span>
+            <span class="card-arrow dim">↗</span>
+          </div>
+        </div>
+
+        <!-- 4. NFL Analytics R -->
+        <a class="project-card" data-category="sports"
+           href="https://github.com/navinchandradat/PortfolioProjects/blob/main/NFL%20Project%20Report.Rmd"
+           target="_blank">
+          <div class="card-top">
+            <span class="card-domain r">R</span>
+            <span class="card-status live">Live</span>
+          </div>
+          <div class="card-title">Investigation of NFL Analytics</div>
+          <p class="card-desc">
+            Exploratory analysis of statistics attributed to winning NFL games — identifying which metrics most reliably separate winners from losers across a season.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Exploratory Analysis</span>
+            <span class="tag">NFL</span>
+            <span class="tag">R Markdown</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-tools">R · ggplot2 · tidyverse</span>
+            <span class="card-arrow">↗</span>
+          </div>
+        </a>
+
+        <!-- 5. COVID SQL -->
+        <a class="project-card" data-category="sql"
+           href="https://github.com/navinchandradat/PortfolioProjects/blob/main/COVID%20Portfolio%20Project%20v2.sql"
+           target="_blank">
+          <div class="card-top">
+            <span class="card-domain sql">SQL</span>
+            <span class="card-status live">Live</span>
+          </div>
+          <div class="card-title">COVID-19 Data Exploration</div>
+          <p class="card-desc">
+            Exploration of the global COVID-19 dataset using SQL Server — joins, CTEs, window functions, and aggregate analysis across cases, deaths, and vaccination rates.
+          </p>
+          <div class="card-tags">
+            <span class="tag">CTEs</span>
+            <span class="tag">Window Functions</span>
+            <span class="tag">Joins</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-tools">SQL Server</span>
+            <span class="card-arrow">↗</span>
+          </div>
+        </a>
+
+        <!-- 6. Housing SQL -->
+        <a class="project-card" data-category="sql"
+           href="https://github.com/navinchandradat/PortfolioProjects/blob/main/Data%20Cleaning%20Portfolio%20Project.sql"
+           target="_blank">
+          <div class="card-top">
+            <span class="card-domain sql">SQL</span>
+            <span class="card-status live">Live</span>
+          </div>
+          <div class="card-title">Data Cleaning — Nashville Housing</div>
+          <p class="card-desc">
+            Cleaned and standardized a real-world housing dataset in SQL Server: handling nulls, standardizing formats, removing duplicates, and splitting address columns.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Data Cleaning</span>
+            <span class="tag">Deduplication</span>
+            <span class="tag">String Parsing</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-tools">SQL Server</span>
+            <span class="card-arrow">↗</span>
+          </div>
+        </a>
+
+        <!-- 7. Movie Revenue Python -->
+        <a class="project-card" data-category="python"
+           href="https://github.com/navinchandradat/PortfolioProjects/blob/main/Movie%20Correlation%20Project.ipynb"
+           target="_blank">
+          <div class="card-top">
+            <span class="card-domain py">Python</span>
+            <span class="card-status live">Live</span>
+          </div>
+          <div class="card-title">Movie Revenue Correlation Analysis</div>
+          <p class="card-desc">
+            Explored which variables — budget, genre, runtime, studio — most strongly correlate with high box office revenue, using correlation matrices and scatter analysis.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Correlation</span>
+            <span class="tag">EDA</span>
+            <span class="tag">Visualization</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-tools">Python · pandas · seaborn</span>
+            <span class="card-arrow">↗</span>
+          </div>
+        </a>
+
+        <!-- 8. Tableau -->
+        <a class="project-card" data-category="bi"
+           href="https://public.tableau.com/app/profile/navin.chandradat"
+           target="_blank">
+          <div class="card-top">
+            <span class="card-domain bi">Tableau</span>
+            <span class="card-status live">Live</span>
+          </div>
+          <div class="card-title">Tableau Public — Visualization Gallery</div>
+          <p class="card-desc">
+            A collection of interactive dashboards and data visualizations across various domains, built with a focus on clarity and accessibility for non-technical audiences.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Dashboards</span>
+            <span class="tag">Interactive</span>
+            <span class="tag">Data Viz</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-tools">Tableau Public</span>
+            <span class="card-arrow">↗</span>
+          </div>
+        </a>
+
+        <!-- 9. Data Survey Power BI -->
+        <a class="project-card" data-category="bi"
+           href="https://github.com/navinchandradat/PortfolioProjects/blob/main/Data%20Professional%20Survey.pdf"
+           target="_blank">
+          <div class="card-top">
+            <span class="card-domain bi">Power BI</span>
+            <span class="card-status live">Live</span>
+          </div>
+          <div class="card-title">Data Professional Survey Breakdown</div>
+          <p class="card-desc">
+            Analyzed survey data from data professionals to surface insights on salary ranges, tool preferences, job satisfaction, and career entry difficulty by role.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Survey Data</span>
+            <span class="tag">Dashboard</span>
+            <span class="tag">Career Insights</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-tools">Power BI</span>
+            <span class="card-arrow">↗</span>
+          </div>
+        </a>
+
+        <!-- 10. Excel Bike Sales -->
+        <a class="project-card" data-category="excel"
+           href="https://github.com/navinchandradat/PortfolioProjects/blob/main/Excel%20Project%20Bike%20Sales.xlsx"
+           target="_blank">
+          <div class="card-top">
+            <span class="card-domain excel">Excel</span>
+            <span class="card-status live">Live</span>
+          </div>
+          <div class="card-title">Bike Sales — Customer Demographics Analysis</div>
+          <p class="card-desc">
+            Analyzed customer data to identify demographic patterns in bike purchases, segmenting by income, commute distance, age, and region using pivot tables and charts.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Pivot Tables</span>
+            <span class="tag">Demographics</span>
+            <span class="tag">Segmentation</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-tools">Microsoft Excel</span>
+            <span class="card-arrow">↗</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header"><h2>About</h2></div>
+      <div class="about-grid" id="aboutBlock">
+        <div class="about-label">The work behind the numbers</div>
+        <div class="about-body">
+          <p>
+            I'm a data analyst based in Toronto with a broad toolkit — R, Python, SQL, Tableau, Power BI, and Excel — and a particular passion for sports analytics. My sports projects are built around a simple principle: frame every finding as something a coach or decision-maker would actually want to know.
+          </p>
+          <p>
+            On the NFL side, I work with play-by-play data via nflfastR and FTN charting, using EPA, win probability, and coverage metrics to understand how games are won and lost. I'm also expanding into MLB analysis using Statcast pitch-level data through baseballr.
+          </p>
+          <p>
+            Projects are published as R Markdown reports and deployed here on GitHub Pages — built to be readable by anyone, not just data people.
+          </p>
+          <div class="about-links">
+            <a href="https://www.linkedin.com/in/navin-chandradat/" target="_blank">LinkedIn ↗</a>
+            <a href="https://github.com/navinchandradat" target="_blank">GitHub ↗</a>
+            <a href="https://www.kaggle.com/navinchandradat" target="_blank">Kaggle ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <div class="container">
+    <footer>
+      <p>© 2026 Navin Chandradat · Toronto, ON</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/navin-chandradat/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/navinchandradat" target="_blank">GitHub</a>
+        <a href="https://www.kaggle.com/navinchandradat" target="_blank">Kaggle</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // ── Filter ──
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.project-card');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const f = btn.dataset.filter;
+        cards.forEach(card => {
+          card.classList.toggle('hidden', f !== 'all' && card.dataset.category !== f);
+        });
+      });
+    });
+
+    // ── Staggered card entrance ──
+    const cardObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classList.add('visible'), i * 80);
+          cardObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.05 });
+    cards.forEach(c => cardObserver.observe(c));
+
+    // ── About entrance ──
+    const about = document.getElementById('aboutBlock');
+    const aboutObs = new IntersectionObserver(([e]) => {
+      if (e.isIntersecting) { about.classList.add('visible'); aboutObs.disconnect(); }
+    }, { threshold: 0.15 });
+    aboutObs.observe(about);
+  </script>
+
+</body>
 </html>
